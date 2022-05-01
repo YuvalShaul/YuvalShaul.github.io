@@ -1,0 +1,39 @@
+apiVersion: v1
+entries:
+  jenkins:
+  - apiVersion: v1
+    appVersion: lts
+    created: "2022-05-01T05:17:57.759455867-04:00"
+    deprecated: true
+    description: DEPRECATED - Open source continuous integration server. It supports
+      multiple SCM tools including CVS, Subversion and Git. It can execute Apache
+      Ant and Apache Maven-based projects as well as arbitrary scripts.
+    digest: 47c5bbdb779b3296e8e180c1f44fddf3c4f4084a01de4c1a458117a54f20f5a4
+    home: https://jenkins.io/
+    icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png
+    name: jenkins
+    sources:
+    - https://github.com/jenkinsci/jenkins
+    - https://github.com/jenkinsci/docker-jnlp-slave
+    - https://github.com/maorfr/kube-tasks
+    - https://github.com/jenkinsci/configuration-as-code-plugin
+    urls:
+    - jenkins-2.5.4.tgz
+    version: 2.5.4
+  spark:
+  - apiVersion: v1
+    appVersion: 1.5.1
+    created: "2022-05-01T05:17:57.760109098-04:00"
+    deprecated: true
+    description: DEPRECATED - Fast and general-purpose cluster computing system.
+    digest: e0b4862812f85dcf7b92d71ed90e9f894f1aef35bb76f384fe322ba736cd10fc
+    home: http://spark.apache.org
+    icon: http://spark.apache.org/images/spark-logo-trademark.png
+    name: spark
+    sources:
+    - https://github.com/kubernetes/kubernetes/tree/master/examples/spark
+    - https://github.com/apache/spark
+    urls:
+    - spark-1.0.5.tgz
+    version: 1.0.5
+generated: "2022-05-01T05:17:57.751575435-04:00"
